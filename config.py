@@ -12,10 +12,10 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Bot and owner info
-OWNER_USERNAME = getenv("OWNER_USERNAME", "SHIVANSHDEVS")
-BOT_USERNAME = getenv("BOT_USERNAME", "SapnaMusicRobot")
-BOT_NAME = getenv("BOT_NAME", "SAPNA")
-ASSUSERNAME = getenv("ASSUSERNAME", "KHWAAISH_HOON")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Lord_Vasudev_Krishna")
+BOT_USERNAME = getenv("BOT_USERNAME", "Noelamusicbot")
+BOT_NAME = getenv("BOT_NAME", "𝐍ᴏᴇʟᴀ 𝝌 𝐌ᴜsɪᴄ ♪")
+ASSUSERNAME = getenv("ASSUSERNAME", "˹𝐍ᴏᴇʟᴀ ✘ 𝐀ssɪsᴛᴀɴᴛ˼")
 
 # MongoDB
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -31,13 +31,13 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 DEEP_API = getenv("DEEP_API")
 
 # Git
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/itzshukla/STRANGER-MUSIC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ITSZSHUKLA")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MASTIWITHFRIENDSXD")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Noela_Music")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Noela_Music")
 
 # YT-API Get from @AmShashank on tg
 YOUR_API_KEY = getenv("YOUR_API_KEY", "")
