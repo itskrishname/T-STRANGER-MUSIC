@@ -21,35 +21,35 @@ async def repo_handler(_, msg):
     buttons = [
         [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
         [
-            InlineKeyboardButton("💬 sᴜᴘᴘᴏʀᴛ", url="https://t.me/MASTIWITHFRIENDSXD"),
-            InlineKeyboardButton("👤 ᴏᴡɴᴇʀ", url="https://t.me/SHASHANKDEVS"),
+            InlineKeyboardButton("💬 sᴜᴘᴘᴏʀᴛ", url="https://t.me/Noela_Music"),
+            InlineKeyboardButton("👤 ᴏᴡɴᴇʀ", url=""),
         ],
-        [InlineKeyboardButton("🧾 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/ITSZSHUKLA")],
+        [InlineKeyboardButton("🧾 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Noela_Music")],
         [
-            InlineKeyboardButton("💥 ʙᴀɴᴀʟʟ", url="https://github.com/itzshukla/STRANGER-BANALL/fork"),
-            InlineKeyboardButton("🎧 ᴍᴜsɪᴄ V2", url="https://github.com/itzshukla/STRANGER-MUSIC/fork"),
-        ],
-        [
-            InlineKeyboardButton("🎶 ᴍᴜsɪᴄ V1", url="https://github.com/itzshukla/STRANGER-MUSIC2.0/fork"),
-            InlineKeyboardButton("💬 ᴄʜᴀᴛʙᴏᴛ", url="https://github.com/itzshukla/STRANGER-CHATBOT/fork"),
+            InlineKeyboardButton("💥 ʙᴀɴᴀʟʟ", url="https://t.me/Lord_Vasudev_Krishna"),
+            InlineKeyboardButton("🎧 ᴍᴜsɪᴄ V2", url="https://t.me/Lord_Vasudev_Krishna"),
         ],
         [
-            InlineKeyboardButton("🎯 sᴛʀɪɴɢ ɢᴇɴ", url="https://github.com/itzshukla/STRANGER-STRING-GEN/fork"),
-            InlineKeyboardButton("🛠️ ɢᴄ ᴍᴀɴᴀɢᴇʀ", url="https://github.com/itzshukla/STRANGER-ROBOT/fork"),
+            InlineKeyboardButton("🎶 ᴍᴜsɪᴄ V1", url="https://t.me/Lord_Vasudev_Krishna"),
+            InlineKeyboardButton("💬 ᴄʜᴀᴛʙᴏᴛ", url="https://t.me/Lord_Vasudev_Krishna"),
         ],
         [
-            InlineKeyboardButton("⚔️ sᴘᴀᴍ ʙᴏᴛs", url="https://github.com/itzshukla/STRANGER-SPAM-X/fork"),
-            InlineKeyboardButton("👾 ʙᴀɴᴀʟʟ 10", url="https://github.com/itzshukla/STRANGER-BANALL-BOTS/fork"),
+            InlineKeyboardButton("🎯 sᴛʀɪɴɢ ɢᴇɴ", url="https://t.me/Lord_Vasudev_Krishna"),
+            InlineKeyboardButton("🛠️ ɢᴄ ᴍᴀɴᴀɢᴇʀ", url="https://t.me/Lord_Vasudev_Krishna"),
         ],
         [
-            InlineKeyboardButton("🧪 sᴛʀɪɴɢ ʜᴀᴄᴋ", url="https://github.com/itzshukla/STRANGER-SESSION-HACK/fork"),
-            InlineKeyboardButton("🤖 ɪᴅ ᴜsᴇʀʙᴏᴛ", url="https://t.me/StrangerHosterbot"),
+            InlineKeyboardButton("⚔️ sᴘᴀᴍ ʙᴏᴛs", url="https://t.me/Lord_Vasudev_Krishna"),
+            InlineKeyboardButton("👾 ʙᴀɴᴀʟʟ 10", url="https://t.me/Lord_Vasudev_Krishna"),
         ],
-        [InlineKeyboardButton("👑 sᴜᴘᴇʀ ᴜsᴇʀʙᴏᴛ", url="https://github.com/itzshukla/STRANGER-OPUSERBOT2.0/fork")]
+        [
+            InlineKeyboardButton("🧪 sᴛʀɪɴɢ ʜᴀᴄᴋ", url="https://t.me/Lord_Vasudev_Krishna"),
+            InlineKeyboardButton("🤖 ɪᴅ ᴜsᴇʀʙᴏᴛ", url="https://t.me/Lord_Vasudev_Krishna"),
+        ],
+        [InlineKeyboardButton("👑 sᴜᴘᴇʀ ᴜsᴇʀʙᴏᴛ", url="https://t.me/Lord_Vasudev_Krishna")]
     ]
 
     await msg.reply_photo(
-        photo="https://files.catbox.moe/jxribw.jpg",
+        photo="https://files.catbox.moe/shnqll.jpg",
         caption=start_txt,
         reply_markup=InlineKeyboardMarkup(buttons)
     )
