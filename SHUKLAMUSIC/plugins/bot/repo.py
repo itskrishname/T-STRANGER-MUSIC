@@ -22,7 +22,7 @@ async def repo_handler(_, msg):
         [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
         [
             InlineKeyboardButton("💬 sᴜᴘᴘᴏʀᴛ", url="https://t.me/Noela_Music"),
-            InlineKeyboardButton("👤 ᴏᴡɴᴇʀ", url=""),
+            InlineKeyboardButton("👤 ᴏᴡɴᴇʀ", url="https://t.me/OGxxxtentacion"),
         ],
         [InlineKeyboardButton("🧾 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Noela_Music")],
         [
